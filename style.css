@@ -136,6 +136,17 @@ section.ondas-box{
 
 @media screen and (max-width:500px){
     
+    
+    body{
+        background-image: url(imgs/nature\ \(6\).jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+    
+
     .txt{
         display: flex;
         justify-content: center;
