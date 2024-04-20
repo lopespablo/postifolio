@@ -72,6 +72,18 @@ section.ondas-box{
     background-image: url(imgs/AGS\ CONSULTAS.png);
 }
 
+.onda55{
+    bottom: 100px;
+    position: absolute;
+    height: 250px;
+    width: 500px;
+    background-image: url(imgs/Design\ sem\ nome\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
 #onda1{
     z-index: 1000;
     opacity: 1;
@@ -101,9 +113,6 @@ section.ondas-box{
 }
 
 #onda5{
-    background-image: url(imgs/Design\ sem\ nome\ \(1\).png);
-    background-repeat: no-repeat;
-    bottom: 100px;
     --vl: 4;
     animation: aniee calc(8s * var(--vl)) linear infinite alternate;
 }
@@ -136,17 +145,10 @@ section.ondas-box{
 }
 
 @media screen and (max-width:500px){
-    
-    
     body{
-        background-image: url(imgs/nature\ \(6\)\ -\ Copia.jpg);
         background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
         background-size: cover;
-        
-    }
-t    
+    } 
 
     .txt{
         display: flex;
@@ -158,13 +160,36 @@ t
         text-align: center;
     }
 
+    .onda{
+        width: 900px;
+        height: 200px;
+        background-image: url(imgs/AGS\ CONSULTAS.png);
+        background-size: cover;
+    }
+
+    .onda55{
+        height: 130px;
+        width: 300px;
+        background-image: url(imgs/Design\ sem\ nome\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        bottom: 200px;
+        
+    }
+
+    #onda5{
+        --vl: 4;
+        animation: aniee calc(8s * var(--vl)) linear infinite alternate;
+    }
+    
 
     @keyframes aniee {
         0% {
             transform: translateX(-5%);
         }
         100% {
-            transform: translateX(5%)
+            transform: translateX(20%)
         }
     }
 }
