@@ -107,6 +107,7 @@ section.ondas-box{
     --vl: 4;
     animation: aniee calc(8s * var(--vl)) linear infinite alternate;
 }
+
 @keyframes ani {
     0% {
         transform: translateX(-100%);
@@ -138,14 +139,14 @@ section.ondas-box{
     
     
     body{
-        background-image: url(imgs/nature\ \(6\).jpg);
+        background-image: url(imgs/nature\ \(6\)\ -\ Copia.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
         
     }
-    
+t    
 
     .txt{
         display: flex;
@@ -156,6 +157,15 @@ section.ondas-box{
         font-size: 20px;
         text-align: center;
     }
-    
+
+
+    @keyframes aniee {
+        0% {
+            transform: translateX(-5%);
+        }
+        100% {
+            transform: translateX(5%)
+        }
+    }
 }
 
