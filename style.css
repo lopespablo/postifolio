@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100; 0,300; 0,400; 0,500; 0,700; 0,900; 1,100; 1,300; 1,400; 1,500; 1,700; 1.900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 body{
@@ -19,27 +21,50 @@ body{
     height: 100%;
 
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    
 
     position: fixed;
     z-index: -1;
+}
 
-    font-size: 40px;
-    color: #fff;
+.titulo .txt{
+    padding-top: 150px;
 }
 
 .titulo h1{
-    display: flex;
-    justify-content: center ;
-    filter: drop-shadow(1px 1px 1px rgb(163, 163, 163));
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);;
+    filter: drop-shadow(0px 0px 1px white);
+    margin-bottom: 10px;
+    
 }
 
 .titulo h2{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(34, 133, 214);
+    filter: drop-shadow(0px 0px 1px white);
+    font-size: 60px;
+}
+
+.titulo .btns{
     display: flex;
-    flex-direction: column;
-    color: black;
-    font-size: 30px;
+    justify-content: center;
+}
+
+.titulo .btns button{
+    background-color: #ffffff52;
+    color: rgb(255, 255, 255);;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.274);
+    margin: 0 10px;
+    height: 30px;
+    width: 90px;
 }
 
 .conteudo{
@@ -115,7 +140,7 @@ section.ondas-box{
 }
 
 #onda5{
-    --vl: 4;
+    --vl: 7;
     animation: aniee calc(8s * var(--vl)) linear infinite alternate;
 }
 
@@ -145,7 +170,7 @@ section.ondas-box{
         transform: translateX(30%);
     }
     100% {
-        transform: translateX(70%)
+        transform: translateX(130%)
     }
 }
 
@@ -155,14 +180,21 @@ section.ondas-box{
         background-size: cover;
     } 
 
-    .txt{
-        display: flex;
-        justify-content: center;
+    .titulo h1{
+        font-size: 35px;
+        padding: 10px;
     }
 
     .titulo h2{
-        font-size: 20px;
+        font-size: 40px;
         text-align: center;
+    }
+
+    .titulo .btns button{
+        height: 40px;
+        width: 105px;
+        font-size: 18px;
+        font-weight: 500;
     }
 
     .onda{
