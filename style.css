@@ -44,7 +44,7 @@ body{
 
 .conteudo{
     padding: 100px;
-    box-shadow: 0px 1px 24px 19px  white;
+    box-shadow: 0px -21px 24px 31px  white;
     background-color: #ffffff;
 }
 
@@ -56,6 +56,8 @@ body{
 .conteudo p{
     font-size: 1.5em;
 }
+
+    /* area das nuvens */
 
 section.ondas-box{
     position: relative;
@@ -116,6 +118,9 @@ section.ondas-box{
     --vl: 4;
     animation: aniee calc(8s * var(--vl)) linear infinite alternate;
 }
+
+
+        /* area dos @ */
 
 @keyframes ani {
     0% {
