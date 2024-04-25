@@ -96,7 +96,7 @@ section.ondas-box{
     height: 250px;
     position: absolute;
     bottom: 0;
-    background-image: url(imgs/AGS\ CONSULTAS.png);
+    background-image: url(./imgs/nuvem.png);
 }
 
 .onda55{
@@ -104,7 +104,7 @@ section.ondas-box{
     position: absolute;
     height: 250px;
     width: 500px;
-    background-image: url(imgs/Design\ sem\ nome\ \(1\).png);
+    background-image: url(./imgs/nuvem2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -200,14 +200,14 @@ section.ondas-box{
     .onda{
         width: 900px;
         height: 200px;
-        background-image: url(imgs/AGS\ CONSULTAS.png);
+        background-image: url(./imgs/nuvem.png);
         background-size: cover;
     }
 
     .onda55{
         height: 130px;
         width: 300px;
-        background-image: url(imgs/Design\ sem\ nome\ \(1\).png);
+        background-image: url(./imgs/nuvem2.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
