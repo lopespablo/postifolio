@@ -184,12 +184,12 @@ section.ondas-box{
         background-size: cover;
     } 
 
-    .titulo h1{
+    .titulo .txt h1{
         font-size: 35px;
         padding: 10px;
     }
 
-    .titulo h2{
+    .titulo .txt h2{
         font-size: 40px;
         text-align: center;
     }
