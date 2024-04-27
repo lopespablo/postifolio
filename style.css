@@ -176,8 +176,8 @@ section.ondas-box{
 
 @media screen and (max-width:414px){
     body{
-        max-width: 430px;
-        background-position: right;
+        background-image: url(./imgs/teste.jpg);
+        background-position: center;
         background-size: cover;
     } 
 
