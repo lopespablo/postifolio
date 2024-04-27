@@ -178,7 +178,7 @@ section.ondas-box{
 @media screen and (max-width:414px){
     body{
         background-position: center;
-        background-size: auto;
+        background-size: cover;
     } 
 
     .titulo .txt h1{
