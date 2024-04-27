@@ -8,6 +8,7 @@
 }
 
 body{
+    height: 100vh;
     background-image: url(./imgs/fundo-body.jpg);
     background-position: center;
     background-repeat: no-repeat;
