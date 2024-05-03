@@ -174,8 +174,11 @@ section.ondas-box{
     }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
     body{
+        background-image: url(./imgs/tela-celular.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         background-position: center;
         background-size: cover;
     } 
