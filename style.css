@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url(./imgs/fundo-body.jpg);
+    background-image: url(./imgs/teste.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -175,14 +175,7 @@ section.ondas-box{
 }
 
 @media screen and (max-width:600px){
-    body{
-        background-image: url(./imgs/tela-celular.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-    } 
-
+    
     .titulo .txt h1{
         font-size: 35px;
         padding: 10px;
