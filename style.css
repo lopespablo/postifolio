@@ -8,12 +8,11 @@
 }
 
 body{
-    height: 100vh;
     background-image: url(./imgs/fundo-body.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
     
 }
 
@@ -175,7 +174,7 @@ section.ondas-box{
     }
 }
 
-@media screen and (max-width:414px){
+@media screen and (max-width:500px){
     body{
         background-position: center;
         background-size: cover;
