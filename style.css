@@ -8,11 +8,11 @@
 }
 
 body{
-    background-image: url(./imgs/teste.jpg);
+    height: 100vh;
+    background-image: url(./imgs/fundo-body.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     
 }
 
